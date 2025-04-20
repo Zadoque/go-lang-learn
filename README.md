@@ -69,3 +69,18 @@ This repository is for educational purposes only. All code examples are based on
 
 - The creator of the YouTube playlist for providing educational content
 - The Go community for developing a robust and elegant programming language
+# Video 13: Arrays
+## Video Information
+**URL**: https://www.youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&index=13  
+**Focus**: Fixed-size collections
+
+## Key Concepts
+- Array declaration
+- Initialization methods
+- Zero value initialization
+- Length as type component
+
+```go
+var primes [5]int = [5]int{2, 3, 5, 7, 11}
+names := [...]string{"Alice", "Bob"}
+```
